@@ -95,7 +95,7 @@ while running:
 		
    
 	if not fruit:
-		food_pos = [random.randrange(1, (W//10)) * 10,random.randrange(1, (H//10)) * 10]
+		fruit_pos = [random.randrange(1, (W//10)) * 10,random.randrange(1, (H//10)) * 10]
 		
 	fruit = True
 	screen.fill('black')
